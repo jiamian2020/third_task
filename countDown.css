@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 3840px;
+    min-height: 1000px;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -400px;
+    width: 825px;
+    height: 100px;
+    color: rgb(34, 172, 190);
+    font-size: 80px;
+    font-family: Courier New;
+    min-width: 600px;
+}
+
+.circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 60px;
+    font-size: 40px;
+    font-family: Fantasy;
+    width: 100px;
+    height: 100px;
+}
+
+#Day {
+    background-color: rgba(221, 19, 19, 0.4);
+}
+
+#Hour {
+    background-color: rgba(240, 216, 8, 0.4);
+}
+
+#Minute {
+    background-color: rgb(21, 182, 155, 0.4);
+}
+
+#Seconds {
+    background-color: rgba(8, 137, 243, 0.4);
+}
+
+.clock {
+    width: 640px;
+    height: 120px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -33px;
+    margin-left: -310px;
+}
+
+.word {
+    font-size: 30px;
+    position: absolute;
+    top: 75%;
+}
+
+.word_day {
+    position: absolute;
+    left: 9%;
+    color: rgba(8, 137, 243, 0.4);
+}
+.word_hour {
+    position: absolute;
+    left: 31%;
+    color: rgb(21, 182, 155, 0.4);
+}
+.word_min {
+    position: absolute;
+    left: 51%;
+    color: rgba(240, 216, 8, 0.4);
+}
+.word_sec {
+    position: absolute;
+    left: 73%;
+    color: rgba(221, 19, 19, 0.4);
+}
+
+.mainBox {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    margin-top: -33px;
+    margin-left: -310px;
+    width: 700px;
+    height: 350px;
+}
